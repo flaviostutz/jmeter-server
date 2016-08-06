@@ -1,0 +1,11 @@
+version: '2'
+services:
+  jmeter_agent:
+    build: .
+    ports:
+      - "24000:24000"
+      - "26000:26000"
+      - "2222:22"
+    restart: always
+    network_mode: bridge
+
