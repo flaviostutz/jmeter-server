@@ -9,6 +9,7 @@ To use this container:
    - Run this container in a remote host
       - git clone https://github.com/flaviostutz/jmeter-server.git
       - docker-compose up -d
+      - (OR) docker run -p 24000:24000 -p 26000:26000 -p 2222:22
    - Create a SSH tunel between your machine and the remote host running the container (this step may be skipped if you have direct access to all ports of the host machine running the container)
       - ssh user@remotehostip -L 2222:localhost:2222
    - In a new terminal, create a second tunel, this time the SSH tunel will connect your machine directly to the SSH inside the jmeter container and export some ports
