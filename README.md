@@ -1,6 +1,8 @@
 JMeter 3 Server
 ===============
 
+[![](https://images.microbadger.com/badges/image/flaviostutz/jmeter-server.svg)](https://microbadger.com/images/flaviostutz/jmeter-server "Get your own image badge on microbadger.com")
+
 Use this container in order to execute load tests using JMeter remotelly.
 
 To use this container:
