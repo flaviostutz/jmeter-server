@@ -1,6 +1,7 @@
 JMeter 3 Server
 ===============
 
+[<img src="https://img.shields.io/docker/automated/flaviostutz/jmeter-server"/>](https://hub.docker.com/r/flaviostutz/jmeter-server)
 [![](https://images.microbadger.com/badges/image/flaviostutz/jmeter-server.svg)](https://microbadger.com/images/flaviostutz/jmeter-server "Get your own image badge on microbadger.com")
 
 Use this container in order to execute load tests using JMeter remotelly.
